@@ -8,33 +8,29 @@
 
 body{
     background-color: var(--back-dark);
-    margin: 0%;
+    margin: 0;
 }
 
-/* .parts{
-    border: 1px solid white;
-} */
 .neck{
     width: 40px;
     height: 120px;
     border: 1px solid white;
-    margin-left: 50%;
+    margin: 0 auto;
 }
 .body{
     width: 200px;
     height: 500px;
     border: 1px solid white;
-    margin-left: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .dot{
-    height: 95px;
-    width: 95px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    display: inline-block;
-}
-
-.column{
-    justify-content: column;
+    margin: 0 auto;
 }
 
 .red{
@@ -45,8 +41,4 @@ body{
 }
 .green{
     background-color: var(--green-light);
-}
-
-.d-flex{
-    display: flex;
 }
