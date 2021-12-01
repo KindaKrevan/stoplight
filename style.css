@@ -1,0 +1,52 @@
+:root{
+    --red-light: red;
+    --yellow-light: yellow;
+    --green-light: green;
+    --back-dark: black;
+    --light-frame: rgb(65, 65, 65);
+}
+
+body{
+    background-color: var(--back-dark);
+    margin: 0%;
+}
+
+/* .parts{
+    border: 1px solid white;
+} */
+.neck{
+    width: 40px;
+    height: 120px;
+    border: 1px solid white;
+    margin-left: 50%;
+}
+.body{
+    width: 200px;
+    height: 500px;
+    border: 1px solid white;
+    margin-left: 35%;
+}
+.dot{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.column{
+    justify-content: column;
+}
+
+.red{
+    background-color: var(--red-light);
+}
+.yellow{
+    background-color: var(--yellow-light);
+}
+.green{
+    background-color: var(--green-light);
+}
+
+.d-flex{
+    display: flex;
+}
